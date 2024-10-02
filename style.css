@@ -87,11 +87,15 @@ button {
 }
 .con2-cards img{
     border-radius: 8px;
+    border-color: dodgerblue;
+    border-width: 2px;
+    border-style: solid;
 }
 .con2-subtext{
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 30px;
+    text-align: center;
     row-gap: 0;;
 }
 a {
