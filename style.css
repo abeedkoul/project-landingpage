@@ -116,6 +116,39 @@ button {
     font-weight: bold;
     margin: 0px;
 }
+.parent4{
+    /* background-color: aquamarine; */
+    padding: 50px 225px;
+}
+.content4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+
+}
+.content4 p{
+    color: #F9FAF8;
+}
+
+.content4 #cta-subtext{
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #F9FAF8;
+}
+.content4 #ctabold{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+#b2{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
 a {
     text-decoration: none;
     padding: 10px;
