@@ -1,5 +1,5 @@
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
     margin: 8px;
@@ -57,7 +57,7 @@ button {
     font-weight: bold;
 }
 .image{
-    display: flex;
+    /* display: flex; */
     flex-shrink: 2;
     /* flex-basis: 0; */
 }
@@ -94,9 +94,27 @@ button {
 .con2-subtext{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    font-size: 15px;
+    gap: 15px;
     text-align: center;
     row-gap: 0;;
+}
+.content3{
+    background-color: #E5E7EB;
+    text-align: center;
+    /* display: flex; */
+    padding: 50px 100px;
+    flex-wrap: wrap;
+}
+.content3 p{
+    font-size: 28px;
+    margin: 0px;
+}
+#notation{
+    font-size: 18px;
+    text-align:right;
+    font-weight: bold;
+    margin: 0px;
 }
 a {
     text-decoration: none;
