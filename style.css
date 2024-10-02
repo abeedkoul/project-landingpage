@@ -2,7 +2,13 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
-    /* gap: 15px; */
+    margin: 8px;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px ;
+    background-color: #052045 ;
 }
 p {
     word-break: break-all;
@@ -18,13 +24,13 @@ p {
 #head-text{
     font-size: 24px;
     color: #F9FAF8;
-    margin-left: 90px;
+    margin-left: 10px;
 }
 .content1{
     display: flex;
     justify-content: center;
     background-color: #052045;
-    
+    gap: 30px;
     padding-bottom: 20px;
 }
 .content1 p{
@@ -48,7 +54,7 @@ button {
     font-weight: bold;
 }
 .image{
-    padding: 20px;
+    /* padding: 20px; */
 }
 #himg{
     margin-top: 24px;
@@ -56,12 +62,14 @@ button {
 a {
     text-decoration: none;
     padding: 10px;
-    color: #E5E7EB;
+    color: rgb(163, 161, 161);
     font-size: 18px;
 }
 ul{
     display: flex;
     list-style: none;
+    padding: 0px;
+    margin:0px;
     margin-right: 100px;
 }
 
