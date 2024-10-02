@@ -123,6 +123,7 @@ button {
 .content4{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     background-color: dodgerblue;
     border-radius: 8px;
@@ -148,6 +149,12 @@ button {
     border-style: solid;
     border-width: 2px;
     border-color: white;
+}
+.footer{
+    background-color: #052045;
+    color: #E5E7EB;
+    padding: 20px 0px;
+    text-align: center;
 }
 a {
     text-decoration: none;
