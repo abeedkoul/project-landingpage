@@ -4,11 +4,14 @@ body {
     flex-direction: column;
     margin: 8px;
 }
-.parent{
+.parent,.parent2{
     display: flex;
     flex-direction: column;
     padding: 0px 100px ;
     background-color: #052045 ;
+}
+.parent2{
+    background-color: white;
 }
 p {
     word-break: break-all;
@@ -54,10 +57,42 @@ button {
     font-weight: bold;
 }
 .image{
-    /* padding: 20px; */
+    display: flex;
+    flex-shrink: 2;
+    /* flex-basis: 0; */
 }
+
 #himg{
+    display: flex;
+    flex-basis: 0;
     margin-top: 24px;
+    
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.c2-header p{
+    font-weight: bold;
+    font-size: 36px;
+}
+.con2-cards{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    row-gap: 0;;
+    flex-wrap: wrap;
+}
+.con2-cards img{
+    border-radius: 8px;
+}
+.con2-subtext{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    row-gap: 0;;
 }
 a {
     text-decoration: none;
